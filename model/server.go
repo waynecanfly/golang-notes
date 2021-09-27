@@ -1,10 +1,10 @@
 package model
 
 type Server struct {
-	ServerName string
-	ServerIP string
+	ServerName string `json:"serverName"`
+	ServerIP string `json:"serverIP"`
 }
 
 type ServerSlice struct {
-	Servers []Server
+	Servers []Server `json:"servers"`
 }
