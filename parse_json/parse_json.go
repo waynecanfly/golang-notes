@@ -5,19 +5,9 @@ import (
 	"github.com/bitly/go-simplejson"
 )
 
-type Server struct {
-	ServerName string
-	ServerIP string
-}
-
-type Serverslice struct {
-	Servers []Server
-}
-
-
 func ParseJson()  {
 	//解析到结构体
-	//var s Serverslice
+	//var s model.ServerSlice
 	//
 	//str := `{"servers":[{"serverName":"Shanghai_VPN","serverIP":"127.0.0.1"},{"serverName":"Beijing_VPN","serverIP":"127.0.0.2"}]}`
 	//err := json.Unmarshal([]byte(str), &s)
